@@ -1,0 +1,427 @@
+Initialized native services in: /Users/alan/.gradle/native
+Found daemon DaemonInfo{pid=850, address=[2fae1a9d-363e-44ce-9489-818b67448af0 port:49448, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1545792113331, context=DefaultDaemonContext[uid=4852ad40-59f6-41c7-9c4c-f7bcca6ce271,javaHome=/Applications/Android Studio 3.3 Preview.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/alan/.gradle/daemon,pid=850,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home,daemonRegistryDir=/Users/alan/.gradle/daemon,pid=1983,idleTimeout=null,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Actual: DefaultDaemonContext[uid=4852ad40-59f6-41c7-9c4c-f7bcca6ce271,javaHome=/Applications/Android Studio 3.3 Preview.app/Contents/jre/jdk/Contents/Home,daemonRegistryDir=/Users/alan/.gradle/daemon,pid=850,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 1142). The daemon log file: /Users/alan/.gradle/daemon/4.8/daemon-1142.out.log
+Starting 5th build in daemon [uptime: 9 mins 45.318 secs, performance: 97%, GC rate: 1.00/s, tenured heap usage: 7% of 1.1 GB]
+Using 4 worker leases.
+Starting Build
+Settings evaluated using settings file '/Users/alan/Documents/GitHub/Small/Android/Plugin/settings.gradle'.
+Projects loaded. Root project using build file '/Users/alan/Documents/GitHub/Small/Android/Plugin/build.gradle'.
+Included projects: [root project 'Plugin', project ':annex', project ':app', project ':sdk']
+Parallel execution with configuration on demand is an incubating feature.
+Evaluating root project 'Plugin' using build file '/Users/alan/Documents/GitHub/Small/Android/Plugin/build.gradle'.
+Evaluating project ':annex' using build file '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/build.gradle'.
+Creating configuration androidTestUtil
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration api
+Creating configuration implementation
+Creating configuration runtimeOnly
+Creating configuration compileOnly
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestApi
+Creating configuration androidTestImplementation
+Creating configuration androidTestRuntimeOnly
+Creating configuration androidTestCompileOnly
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testApi
+Creating configuration testImplementation
+Creating configuration testRuntimeOnly
+Creating configuration testCompileOnly
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugApi
+Creating configuration debugImplementation
+Creating configuration debugRuntimeOnly
+Creating configuration debugCompileOnly
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration androidTestDebugCompile
+Creating configuration androidTestDebugApk
+Creating configuration androidTestDebugProvided
+Creating configuration androidTestDebugApi
+Creating configuration androidTestDebugImplementation
+Creating configuration androidTestDebugRuntimeOnly
+Creating configuration androidTestDebugCompileOnly
+Creating configuration androidTestDebugWearApp
+Creating configuration androidTestDebugAnnotationProcessor
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugApi
+Creating configuration testDebugImplementation
+Creating configuration testDebugRuntimeOnly
+Creating configuration testDebugCompileOnly
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseApi
+Creating configuration releaseImplementation
+Creating configuration releaseRuntimeOnly
+Creating configuration releaseCompileOnly
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseApi
+Creating configuration testReleaseImplementation
+Creating configuration testReleaseRuntimeOnly
+Creating configuration testReleaseCompileOnly
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Parsing the SDK, no caching allowed
+SDK initialized in 7 ms
+Using incremental javac compilation for :annex debug.
+Using incremental javac compilation for :annex debugUnitTest.
+Using incremental javac compilation for :annex release.
+Using incremental javac compilation for :annex releaseUnitTest.
+Using incremental javac compilation for :annex debugAndroidTest.
+Selected primary task 'annex:build' from project :annex
+All projects evaluated.
+Tasks to be executed: [task ':annex:checkDebugClasspath', task ':annex:preBuild', task ':annex:preDebugBuild', task ':annex:compileDebugAidl', task ':annex:compileDebugRenderscript', task ':annex:checkDebugManifest', task ':annex:generateDebugBuildConfig', task ':annex:mainApkListPersistenceDebug', task ':annex:generateDebugResValues', task ':annex:generateDebugResources', task ':annex:mergeDebugResources', task ':annex:createDebugCompatibleScreenManifests', task ':annex:processDebugManifest', task ':annex:splitsDiscoveryTaskDebug', task ':annex:processDebugResources', task ':annex:kaptGenerateStubsDebugKotlin', task ':annex:kaptDebugKotlin', task ':annex:compileDebugKotlin', task ':annex:prepareLintJar', task ':annex:generateDebugSources', task ':annex:javaPreCompileDebug', task ':annex:compileDebugJavaWithJavac', task ':annex:compileDebugNdk', task ':annex:compileDebugSources', task ':annex:mergeDebugShaders', task ':annex:compileDebugShaders', task ':annex:generateDebugAssets', task ':annex:mergeDebugAssets', task ':annex:transformClassesWithDexBuilderForDebug', task ':annex:transformDexArchiveWithExternalLibsDexMergerForDebug', task ':annex:transformDexArchiveWithDexMergerForDebug', task ':annex:mergeDebugJniLibFolders', task ':annex:transformNativeLibsWithMergeJniLibsForDebug', task ':annex:checkDebugLibraries', task ':annex:processDebugJavaRes', task ':annex:transformResourcesWithMergeJavaResForDebug', task ':annex:validateSigningDebug', task ':annex:packageDebug', task ':annex:assembleDebug', task ':annex:checkReleaseClasspath', task ':annex:preReleaseBuild', task ':annex:compileReleaseAidl', task ':annex:compileReleaseRenderscript', task ':annex:checkReleaseManifest', task ':annex:generateReleaseBuildConfig', task ':annex:mainApkListPersistenceRelease', task ':annex:generateReleaseResValues', task ':annex:generateReleaseResources', task ':annex:mergeReleaseResources', task ':annex:createReleaseCompatibleScreenManifests', task ':annex:processReleaseManifest', task ':annex:splitsDiscoveryTaskRelease', task ':annex:processReleaseResources', task ':annex:kaptGenerateStubsReleaseKotlin', task ':annex:kaptReleaseKotlin', task ':annex:compileReleaseKotlin', task ':annex:generateReleaseSources', task ':annex:javaPreCompileRelease', task ':annex:compileReleaseJavaWithJavac', task ':annex:compileReleaseNdk', task ':annex:compileReleaseSources', task ':annex:lintVitalRelease', task ':annex:mergeReleaseShaders', task ':annex:compileReleaseShaders', task ':annex:generateReleaseAssets', task ':annex:mergeReleaseAssets', task ':annex:transformClassesWithDexBuilderForRelease', task ':annex:transformDexArchiveWithExternalLibsDexMergerForRelease', task ':annex:transformDexArchiveWithDexMergerForRelease', task ':annex:mergeReleaseJniLibFolders', task ':annex:transformNativeLibsWithMergeJniLibsForRelease', task ':annex:checkReleaseLibraries', task ':annex:processReleaseJavaRes', task ':annex:transformResourcesWithMergeJavaResForRelease', task ':annex:packageRelease', task ':annex:assembleRelease', task ':annex:assemble', task ':annex:lint', task ':annex:kaptGenerateStubsDebugUnitTestKotlin', task ':annex:kaptDebugUnitTestKotlin', task ':annex:compileDebugUnitTestKotlin', task ':annex:generateDebugUnitTestSources', task ':annex:preDebugUnitTestBuild', task ':annex:javaPreCompileDebugUnitTest', task ':annex:compileDebugUnitTestJavaWithJavac', task ':annex:processDebugUnitTestJavaRes', task ':annex:testDebugUnitTest', task ':annex:kaptGenerateStubsReleaseUnitTestKotlin', task ':annex:kaptReleaseUnitTestKotlin', task ':annex:compileReleaseUnitTestKotlin', task ':annex:generateReleaseUnitTestSources', task ':annex:preReleaseUnitTestBuild', task ':annex:javaPreCompileReleaseUnitTest', task ':annex:compileReleaseUnitTestJavaWithJavac', task ':annex:processReleaseUnitTestJavaRes', task ':annex:testReleaseUnitTest', task ':annex:test', task ':annex:check', task ':annex:build']
+:annex:checkDebugClasspath (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:checkDebugClasspath' as it is up-to-date.
+:annex:checkDebugClasspath (Thread[Task worker for ':',5,main]) completed. Took 0.036 secs.
+:annex:preBuild (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:preBuild' as it has no actions.
+:annex:preBuild (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:preDebugBuild (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:preDebugBuild' as it is up-to-date.
+:annex:preDebugBuild (Thread[Task worker for ':',5,main]) completed. Took 0.004 secs.
+:annex:compileDebugAidl (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileDebugAidl' as it has no source files and no previous output files.
+:annex:compileDebugAidl (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:compileDebugRenderscript (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileDebugRenderscript' as it is up-to-date.
+:annex:compileDebugRenderscript (Thread[Task worker for ':',5,main]) completed. Took 0.002 secs.
+:annex:checkDebugManifest (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:checkDebugManifest' as it is up-to-date.
+:annex:checkDebugManifest (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateDebugBuildConfig (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateDebugBuildConfig' as it is up-to-date.
+:annex:generateDebugBuildConfig (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:mainApkListPersistenceDebug (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mainApkListPersistenceDebug' as it is up-to-date.
+:annex:mainApkListPersistenceDebug (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateDebugResValues (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateDebugResValues' as it is up-to-date.
+:annex:generateDebugResValues (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateDebugResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateDebugResources' as it has no actions.
+:annex:generateDebugResources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:mergeDebugResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mergeDebugResources' as it is up-to-date.
+:annex:mergeDebugResources (Thread[Task worker for ':',5,main]) completed. Took 0.039 secs.
+:annex:createDebugCompatibleScreenManifests (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:createDebugCompatibleScreenManifests' as it is up-to-date.
+:annex:createDebugCompatibleScreenManifests (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:processDebugManifest (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:processDebugManifest' as it is up-to-date.
+:annex:processDebugManifest (Thread[Task worker for ':',5,main]) completed. Took 0.003 secs.
+:annex:splitsDiscoveryTaskDebug (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:splitsDiscoveryTaskDebug' as it is up-to-date.
+:annex:splitsDiscoveryTaskDebug (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:processDebugResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:processDebugResources' as it is up-to-date.
+:annex:processDebugResources (Thread[Task worker for ':',5,main]) completed. Took 0.013 secs.
+:annex:kaptGenerateStubsDebugKotlin (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:kaptGenerateStubsDebugKotlin' as it is up-to-date.
+:annex:kaptGenerateStubsDebugKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.006 secs.
+:annex:kaptDebugKotlin (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:kaptDebugKotlin' as it is up-to-date.
+:annex:kaptDebugKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.012 secs.
+:annex:compileDebugKotlin (Thread[Task worker for ':',5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/main/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/debug/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/main/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/debug/kotlin', not found
+Skipping task ':annex:compileDebugKotlin' as it is up-to-date.
+:annex:compileDebugKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.003 secs.
+:annex:prepareLintJar (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:prepareLintJar' as it is up-to-date.
+:annex:prepareLintJar (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateDebugSources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateDebugSources' as it has no actions.
+:annex:generateDebugSources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:javaPreCompileDebug (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:javaPreCompileDebug' as it is up-to-date.
+:annex:javaPreCompileDebug (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:compileDebugJavaWithJavac (Thread[Task worker for ':',5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/debug/java', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/build/generated/source/aidl/debug', not found
+Skipping task ':annex:compileDebugJavaWithJavac' as it is up-to-date.
+:annex:compileDebugJavaWithJavac (Thread[Task worker for ':',5,main]) completed. Took 0.007 secs.
+:annex:compileDebugNdk (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileDebugNdk' as it has no source files and no previous output files.
+:annex:compileDebugNdk (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:compileDebugSources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileDebugSources' as it has no actions.
+:annex:compileDebugSources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:mergeDebugShaders (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mergeDebugShaders' as it is up-to-date.
+:annex:mergeDebugShaders (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:compileDebugShaders (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:compileDebugShaders' as it is up-to-date.
+:annex:compileDebugShaders (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:annex:generateDebugAssets (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:generateDebugAssets' as it has no actions.
+:annex:generateDebugAssets (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:annex:mergeDebugAssets (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:mergeDebugAssets' as it is up-to-date.
+:annex:mergeDebugAssets (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.001 secs.
+:annex:transformClassesWithDexBuilderForDebug (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:transformClassesWithDexBuilderForDebug' as it is up-to-date.
+:annex:transformClassesWithDexBuilderForDebug (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.02 secs.
+:annex:transformDexArchiveWithExternalLibsDexMergerForDebug (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:transformDexArchiveWithExternalLibsDexMergerForDebug' as it is up-to-date.
+:annex:transformDexArchiveWithExternalLibsDexMergerForDebug (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.001 secs.
+:annex:transformDexArchiveWithDexMergerForDebug (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:transformDexArchiveWithDexMergerForDebug' as it is up-to-date.
+:annex:transformDexArchiveWithDexMergerForDebug (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.001 secs.
+:annex:mergeDebugJniLibFolders (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:mergeDebugJniLibFolders' as it is up-to-date.
+:annex:mergeDebugJniLibFolders (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:annex:transformNativeLibsWithMergeJniLibsForDebug (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:transformNativeLibsWithMergeJniLibsForDebug' as it is up-to-date.
+:annex:transformNativeLibsWithMergeJniLibsForDebug (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.006 secs.
+:annex:checkDebugLibraries (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:checkDebugLibraries' as it is up-to-date.
+:annex:checkDebugLibraries (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:annex:processDebugJavaRes (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:processDebugJavaRes' as it has no source files and no previous output files.
+:annex:processDebugJavaRes (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:annex:transformResourcesWithMergeJavaResForDebug (Thread[Task worker for ':' Thread 3,5,main]) started.
+Skipping task ':annex:transformResourcesWithMergeJavaResForDebug' as it is up-to-date.
+:annex:transformResourcesWithMergeJavaResForDebug (Thread[Task worker for ':' Thread 3,5,main]) completed. Took 0.004 secs.
+:annex:validateSigningDebug (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:validateSigningDebug' as it is up-to-date.
+:annex:validateSigningDebug (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:packageDebug (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:packageDebug' as it is up-to-date.
+:annex:packageDebug (Thread[Task worker for ':',5,main]) completed. Took 0.012 secs.
+:annex:assembleDebug (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:assembleDebug' as it has no actions.
+:annex:assembleDebug (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:checkReleaseClasspath (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:checkReleaseClasspath' as it is up-to-date.
+:annex:checkReleaseClasspath (Thread[Task worker for ':',5,main]) completed. Took 0.002 secs.
+:annex:preReleaseBuild (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:preReleaseBuild' as it is up-to-date.
+:annex:preReleaseBuild (Thread[Task worker for ':',5,main]) completed. Took 0.002 secs.
+:annex:compileReleaseAidl (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileReleaseAidl' as it has no source files and no previous output files.
+:annex:compileReleaseAidl (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:compileReleaseRenderscript (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileReleaseRenderscript' as it is up-to-date.
+:annex:compileReleaseRenderscript (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:checkReleaseManifest (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:checkReleaseManifest' as it is up-to-date.
+:annex:checkReleaseManifest (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateReleaseBuildConfig (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateReleaseBuildConfig' as it is up-to-date.
+:annex:generateReleaseBuildConfig (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:mainApkListPersistenceRelease (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mainApkListPersistenceRelease' as it is up-to-date.
+:annex:mainApkListPersistenceRelease (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateReleaseResValues (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateReleaseResValues' as it is up-to-date.
+:annex:generateReleaseResValues (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:generateReleaseResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateReleaseResources' as it has no actions.
+:annex:generateReleaseResources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:mergeReleaseResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mergeReleaseResources' as it is up-to-date.
+:annex:mergeReleaseResources (Thread[Task worker for ':',5,main]) completed. Took 0.017 secs.
+:annex:createReleaseCompatibleScreenManifests (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:createReleaseCompatibleScreenManifests' as it is up-to-date.
+:annex:createReleaseCompatibleScreenManifests (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:processReleaseManifest (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:processReleaseManifest' as it is up-to-date.
+:annex:processReleaseManifest (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:splitsDiscoveryTaskRelease (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:splitsDiscoveryTaskRelease' as it is up-to-date.
+:annex:splitsDiscoveryTaskRelease (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:processReleaseResources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:processReleaseResources' as it is up-to-date.
+:annex:processReleaseResources (Thread[Task worker for ':',5,main]) completed. Took 0.01 secs.
+:annex:kaptGenerateStubsReleaseKotlin (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:kaptGenerateStubsReleaseKotlin' as it is up-to-date.
+:annex:kaptGenerateStubsReleaseKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.006 secs.
+:annex:kaptReleaseKotlin (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:kaptReleaseKotlin' as it is up-to-date.
+:annex:kaptReleaseKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.012 secs.
+:annex:compileReleaseKotlin (Thread[Task worker for ':',5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/main/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/release/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/main/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/release/kotlin', not found
+Skipping task ':annex:compileReleaseKotlin' as it is up-to-date.
+:annex:compileReleaseKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.004 secs.
+:annex:generateReleaseSources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:generateReleaseSources' as it has no actions.
+:annex:generateReleaseSources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:javaPreCompileRelease (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:javaPreCompileRelease' as it is up-to-date.
+:annex:javaPreCompileRelease (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:compileReleaseJavaWithJavac (Thread[Task worker for ':',5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/release/java', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/build/generated/source/aidl/release', not found
+Skipping task ':annex:compileReleaseJavaWithJavac' as it is up-to-date.
+:annex:compileReleaseJavaWithJavac (Thread[Task worker for ':',5,main]) completed. Took 0.006 secs.
+:annex:compileReleaseNdk (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileReleaseNdk' as it has no source files and no previous output files.
+:annex:compileReleaseNdk (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:compileReleaseSources (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:compileReleaseSources' as it has no actions.
+:annex:compileReleaseSources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:lintVitalRelease (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:lintVitalRelease' as task onlyIf is false.
+:annex:lintVitalRelease (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+:annex:mergeReleaseShaders (Thread[Task worker for ':',5,main]) started.
+Skipping task ':annex:mergeReleaseShaders' as it is up-to-date.
+:annex:mergeReleaseShaders (Thread[Task worker for ':',5,main]) completed. Took 0.001 secs.
+:annex:compileReleaseShaders (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:compileReleaseShaders' as it is up-to-date.
+:annex:compileReleaseShaders (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:generateReleaseAssets (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:generateReleaseAssets' as it has no actions.
+:annex:generateReleaseAssets (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:mergeReleaseAssets (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:mergeReleaseAssets' as it is up-to-date.
+:annex:mergeReleaseAssets (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:annex:transformClassesWithDexBuilderForRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:transformClassesWithDexBuilderForRelease' as it is up-to-date.
+:annex:transformClassesWithDexBuilderForRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.009 secs.
+:annex:transformDexArchiveWithExternalLibsDexMergerForRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:transformDexArchiveWithExternalLibsDexMergerForRelease' as it is up-to-date.
+:annex:transformDexArchiveWithExternalLibsDexMergerForRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:annex:transformDexArchiveWithDexMergerForRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:transformDexArchiveWithDexMergerForRelease' as it is up-to-date.
+:annex:transformDexArchiveWithDexMergerForRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.001 secs.
+:annex:mergeReleaseJniLibFolders (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:mergeReleaseJniLibFolders' as it is up-to-date.
+:annex:mergeReleaseJniLibFolders (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:transformNativeLibsWithMergeJniLibsForRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:transformNativeLibsWithMergeJniLibsForRelease' as it is up-to-date.
+:annex:transformNativeLibsWithMergeJniLibsForRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.004 secs.
+:annex:checkReleaseLibraries (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:checkReleaseLibraries' as it is up-to-date.
+:annex:checkReleaseLibraries (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:processReleaseJavaRes (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:processReleaseJavaRes' as it has no source files and no previous output files.
+:annex:processReleaseJavaRes (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:transformResourcesWithMergeJavaResForRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:transformResourcesWithMergeJavaResForRelease' as it is up-to-date.
+:annex:transformResourcesWithMergeJavaResForRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.004 secs.
+:annex:packageRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:packageRelease' as it is up-to-date.
+:annex:packageRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.019 secs.
+:annex:assembleRelease (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:assembleRelease' as it has no actions.
+:annex:assembleRelease (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:assemble (Thread[Task worker for ':' Thread 2,5,main]) started.
+Skipping task ':annex:assemble' as it has no actions.
+:annex:assemble (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:lint (Thread[Task worker for ':' Thread 2,5,main]) started.
+Task ':annex:lint' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Ran lint on variant debug: 9 issues found
+Ran lint on variant release: 9 issues found
+Wrote HTML report to file:///Users/alan/Documents/GitHub/Small/Android/Plugin/annex/build/reports/lint-results.html
+Wrote XML report to file:///Users/alan/Documents/GitHub/Small/Android/Plugin/annex/build/reports/lint-results.xml
+:annex:lint (Thread[Task worker for ':' Thread 2,5,main]) completed. Took 4.51 secs.
+:annex:kaptGenerateStubsDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:kaptGenerateStubsDebugUnitTestKotlin' as it is up-to-date.
+:annex:kaptGenerateStubsDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.011 secs.
+:annex:kaptDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:kaptDebugUnitTestKotlin' as it is up-to-date.
+:annex:kaptDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:annex:compileDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/test/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testDebug/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/test/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testDebug/kotlin', not found
+Skipping task ':annex:compileDebugUnitTestKotlin' as it is up-to-date.
+:annex:compileDebugUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:annex:generateDebugUnitTestSources (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:generateDebugUnitTestSources' as it has no actions.
+:annex:generateDebugUnitTestSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:preDebugUnitTestBuild (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:preDebugUnitTestBuild' as it has no actions.
+:annex:preDebugUnitTestBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:javaPreCompileDebugUnitTest (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:javaPreCompileDebugUnitTest' as it is up-to-date.
+:annex:javaPreCompileDebugUnitTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:annex:compileDebugUnitTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testDebug/java', not found
+Skipping task ':annex:compileDebugUnitTestJavaWithJavac' as it is up-to-date.
+:annex:compileDebugUnitTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:annex:processDebugUnitTestJavaRes (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:processDebugUnitTestJavaRes' as it has no source files and no previous output files.
+:annex:processDebugUnitTestJavaRes (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:testDebugUnitTest (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:testDebugUnitTest' as it is up-to-date.
+:annex:testDebugUnitTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:annex:kaptGenerateStubsReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:kaptGenerateStubsReleaseUnitTestKotlin' as it is up-to-date.
+:annex:kaptGenerateStubsReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.011 secs.
+:annex:kaptReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:kaptReleaseUnitTestKotlin' as it is up-to-date.
+:annex:kaptReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:annex:compileReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/test/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testRelease/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/test/kotlin', not found
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testRelease/kotlin', not found
+Skipping task ':annex:compileReleaseUnitTestKotlin' as it is up-to-date.
+:annex:compileReleaseUnitTestKotlin (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.009 secs.
+:annex:generateReleaseUnitTestSources (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:generateReleaseUnitTestSources' as it has no actions.
+:annex:generateReleaseUnitTestSources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:preReleaseUnitTestBuild (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:preReleaseUnitTestBuild' as it has no actions.
+:annex:preReleaseUnitTestBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:javaPreCompileReleaseUnitTest (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:javaPreCompileReleaseUnitTest' as it is up-to-date.
+:annex:javaPreCompileReleaseUnitTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:annex:compileReleaseUnitTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) started.
+file or directory '/Users/alan/Documents/GitHub/Small/Android/Plugin/annex/src/testRelease/java', not found
+Skipping task ':annex:compileReleaseUnitTestJavaWithJavac' as it is up-to-date.
+:annex:compileReleaseUnitTestJavaWithJavac (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:annex:processReleaseUnitTestJavaRes (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:processReleaseUnitTestJavaRes' as it has no source files and no previous output files.
+:annex:processReleaseUnitTestJavaRes (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:testReleaseUnitTest (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:testReleaseUnitTest' as it is up-to-date.
+:annex:testReleaseUnitTest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:annex:test (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:test' as it has no actions.
+:annex:test (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:check (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:check' as it has no actions.
+:annex:check (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+:annex:build (Thread[Daemon worker Thread 2,5,main]) started.
+Skipping task ':annex:build' as it has no actions.
+:annex:build (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 1 executed, 70 up-to-date

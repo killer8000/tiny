@@ -1,0 +1,16 @@
+{
+  "package_name": "com.plugin",
+  "activities": [
+    {
+      "rout_key": "plugin_1",
+      "activity_path": "com.plugin.PluginActivity",
+      "launch_mode": 0
+    }
+  ],
+  "services":[
+    {
+      "rout_key":"service_1",
+      "service_path":"com.plugin.PluginService"
+    }
+  ]
+}
